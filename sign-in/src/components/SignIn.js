@@ -81,6 +81,7 @@ export default function SignIn() {
               autoFocus
             />
             <TextField
+            InputProps={{style:{height: 150}}}
               margin="normal"
               required
               fullWidth
